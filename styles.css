@@ -4,11 +4,27 @@
     color: #333;
 }
 
+h1 {
+  font-size: 5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
 .nav {
     display: flex;
     justify-content: flex-end;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background: #f0f0f0;
+    z-index: 10;
+}
+
+.navList {
+  display: flex;
+  margin-right: 2rem;
+  margin: 0 1rem;
 }
 
 .navList a {
@@ -50,3 +66,26 @@
     object-fit: cover;
   }
   
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    padding: 0 2rem;
+    background: #000000;
+  }
+
+  .contact-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    padding: 0 2rem;
+    background: #000000;
+  }
