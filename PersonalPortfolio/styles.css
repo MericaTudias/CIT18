@@ -1,0 +1,161 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.navList {
+  display: flex;
+  margin: 0 1rem;
+}
+
+.navList a {
+    display: block;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+}
+  
+.navList a:hover {
+    background: #dddddd;
+}
+
+.aboutMe > h1 {
+  margin: 60px;
+  font-size: 3rem;
+  color: #f0f0f0;
+  text-align: left;
+  object-fit: cover;
+}
+
+.aboutMe {
+    display: flex;
+    justify-items: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color: #000;
+}
+  
+.aboutMe img {
+    margin: 70px 0px 50px 60px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 500px;
+}
+
+.aboutMe > p {
+    margin: 30px;
+    font-size: 1.2rem;
+    color: #f0f0f0;
+    text-align: center;
+    object-fit: cover;
+}
+  
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 75vh;
+  padding: 0 2rem;
+  background: #f0f0f0;
+}
+
+.education > pre{
+  font-size: .85rem;
+  color: #000;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40vh;
+  padding: 0 2rem;
+  background: #000;
+}
+
+.experience > h2{
+    color: #f0f0f0;
+}
+
+.experience > pre{
+  color: #f0f0f0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    padding: 0 2rem;
+    background: #f0f0f0;
+}
+
+.skills > pre{
+  font-size: .85rem;
+  font-weight: 200;
+  color: #000;
+}
+
+.projectsHeader{
+  color: #f0f0f0;
+  margin: 20px;
+  text-indent: 25px;
+  text-align: center;
+  object-fit: cover;
+}
+
+.projectsSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40vh;
+  padding: 0 2rem;
+  background: #000;
+}
+
+.project-title .button {
+  font-size: 1.25rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: .50rem 1.25rem;
+  color: #000;
+  background: #f0f0f0;
+}
+
+.contactInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    padding: 0 2rem;
+    background: #f0f0f0;
+}
